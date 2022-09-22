@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 1200px;
+    margin: auto;
+}
+.logo{
+    height: 200px;
+    width: 20%;
+    float: left;
+}
+.logo a img{
+
+height: 200px;
+}
+nav {
+    height: 200px;
+    width: 80%;
+    float: right;
+    padding-top: 37px;
+}
+nav ul{
+
+list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: serif;
+    letter-spacing: 0px;
+    line-height: 85px;
+    color: #7161a8;
+}
+.info{
+    text-align: center;
+    padding-top: 203px;
+}
+.info p{
+    margin-top: 0;
+    padding-top: 6px;
+}
+.info h1{
+    font-size: 42px;
+    font-weight: 600;
+    font-family: serif;
+    letter-spacing: 0px;
+    /* line-height: 85px; */
+    color: #cb0c84;
+    margin-bottom: 0;
+}
+.infoImg{}
+.infoImg .text{
+float: left;
+width: 50%;
+}
+.text p {
+    text-align: right;
+    padding-right: 13px;
+    font-size: 20px;
+}
+.text button{
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+.button:hover{
+    background-color: #cb0c84;
+    color: white;
+    border-radius: 10px;
+}
+.infoImg .img {
+    float: left;
+    width: 50%;
+}
+.img img{
+    height: 300px;
+}
+.myproject{
+     
+}
+.project{}
+.project h1{
+    text-align: center;
+    color: #cb0c84;
+}
+.child{
+    width: 30%;
+    float: left;
+    background-color: #ddd;
+    padding: 10px;
+    margin: 5px;
+}
+.child img{
+    /* display: block; */
+    /* margin: auto; */
+    width: 100%;
+}
+.child h1{}
+.child p {
+    padding: 5px 10px;
+}
+
+
+
